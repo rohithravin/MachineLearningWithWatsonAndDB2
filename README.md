@@ -1,6 +1,6 @@
 # Create A Machine Learning Modeling Using IBM Watson Studio and IBM Db2 On Cloud
 
-This code pattern will demonstrate a data scientist's journey in creating a machine learning model using IBM Watson Studio and IBM Db2 On Cloud. We will showcase how to these products work together seamlessly to create a more enjoyable expierence. 
+This code pattern will demonstrate a data scientist's journey in creating a machine learning model using IBM Watson Studio and IBM Db2 On Cloud. We will showcase how to these products work together seamlessly to create a more enjoyable expierence.
 
 ## Flow
 
@@ -8,7 +8,7 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 
 1. [Clone The Repo](#1-clone-the-repo)
 2. [Create an IBM on Cloud Account](#2-create-an-ibm-on-cloud-account)
-3. Load Data onto IBM Db2 on Cloud 
+3. Load Data onto IBM Db2 on Cloud
 4. Setup Watson Studio Project
 5. Make Machine Learning Model  
 
