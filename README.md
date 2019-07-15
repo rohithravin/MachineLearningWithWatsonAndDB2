@@ -35,8 +35,22 @@ Now that we have created our IBM Cloud account. We need to create a Db2 on Cloud
 2. [Load Data into Db2 on Cloud](#3b-load-data-into-db2-on-cloud)
 
 #### 3a. Create Db2 on Cloud Service
+Head to the [dashboard](https://cloud.ibm.com) of your IBM Cloud account and the follow the steps to create your Db2 On Cloud service.
+
+* In the search bar at the top of your dashboard, search `Db2`.
+* Although there are different database options to choose from, for the purposes of this tutorial we will be using the the `Db2` option. Click `Db2` when that option appears in the search bar.
+* For the service name, enter in `Data-Science-Track`.
+* Make sure you pick the region that is closest to where you currently reside.
+* Scroll down to the `Pricing Plan` section and choose the `Lite` plan. 
+* Click `Create`
+
+IMPORT NOTE: In some cases you may not be able to create your db2 instance. A warning error will pop-up telling you to create a Cloud Foundary Service. Follow the directed steps to create that service and then try to create a Db2 on Cloud Service again. 
+
+Once you created your database instance, we can head back to the dashboard and click on the `View Resources` link under the `Resource Summary` section. You should then be able to see and verify that your Db2 instance has been created under the `Cloud Foundary Services` tab.  
 
 #### 3b. Load Data into Db2 on Cloud
+
+
 
 
 
