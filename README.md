@@ -9,7 +9,7 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 1. [Clone The Repo](#1-clone-the-repo)
 2. [Create an IBM Cloud Account](#2-create-an-ibm-cloud-account)
 3. [Load Data into IBM Db2 on Cloud](#3-load-data-into-ibm-db2-on-cloud) 
-4. Setup Watson Studio Project
+4. [Setup Watson Studio Project](#4-setup-watson-studio)
 5. Make Machine Learning Model  
 
 
@@ -50,6 +50,21 @@ Once you created your database instance, we can head back to the dashboard and c
 
 #### 3b. Load Data into Db2 on Cloud
 
+Head to the dashboard of your IBM Cloud account and the follow the steps to load  your data onto Db2 On Cloud service.
+
+* In the search bar, search `Data-Science-Track` and click on your Db2 on Cloud service
+* Click on `Open Console` which will direct you to the Db2 on Cloud Console.
+* Click on `Load` under the Hamburger menu.
+* Click on `browse files` and select `home-sales-training-data.csv` from your computer. 
+* Click `Next`.
+* The next step is to decide where our data will be stored. Click on the first schema that shows up, then select `New Table`.
+* Let's enter in `HOME_SALES` as our table name and select `Create` and finally `Next`.
+* Now we need to finailze the table, and make sure the column names are correct. Everything should we correct, so let's go ahead and click `Next`. 
+* Finally, we need to set the number of errors the load function should handle before the operation fails. For now the default number is 1000, so let's go head and click `Begin Load`.
+
+Once the job has been completed, our data has finally been loaded into our database. 
+
+### 4. Setup Watson Studio
 
 
 
