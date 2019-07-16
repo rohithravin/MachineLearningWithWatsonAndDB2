@@ -97,7 +97,7 @@ This will redict you to the Watson Studio homepage.
 
 #### 4c. Creating a Project
 
-Lets now create and setup our project.
+Let's now create and setup our project.
 
 * Select `Create a Project` and then select `Standard`.
 * Before we can create this project, we will need to create a storage service. Scroll down and click `Add` under the `Define Storage` section. Follow the instructions and create the service. Make sure your choose the `Lite` plane. Then come back to projct creation page and refresh it. You should see your storage service now. 
@@ -117,7 +117,7 @@ Now that we have created out project, it's time to connect our project with our 
 
 This will redirect you to the asset page for this project, and you should see your new Db2 connection as one of the assets. 
 
-Now that we have our database connected to our project, we need to also connect our data that is stored in the database to the project as well. 
+Now that we have our database connected to our project, we need to also connect our data that is stored in our database to the project as well. 
 
 * On the top of the project homepage, select `Add to project` and then click `Connected data`.
 * Select `Select Source`. 
@@ -125,7 +125,7 @@ Now that we have our database connected to our project, we need to also connect 
 * Click `Select`.
 * Let's name this connected data as `Home_Sales` and then click `Select`.
 
-We have finally creat our Watson Studio service. Within that, created a project where our database and data are connected. We can now finally start coding and building our model!
+We have finally created our Watson Studio service. Within that, created a project where our database and data are connected. We can now finally start coding and building our model!
 
 ### 5. Make Machine Learning Model
 
@@ -133,7 +133,7 @@ It's time to finally create our machine leanring model!
 
 * On the top of the project homepage, select `Add to project` and then click `Notebook`.
 * You can name the notebook whatever you want :) 
-* You can either create a new notebook and copy and paste the code from the notebook that is in github repo. Or you can import the notebook in this github repo into your project by using the `From File` option and follow along. 
+* You can either create a new notebook and copy the code from the notebook that is in github repo. Or you can import the notebook in this github repo into your project by using the `From File` option and follow along. 
 
 If you are not able to view the python notebook through github, please use this [link](https://nbviewer.jupyter.org/github/rohithravin/MachineLearningWithWatsonAndDB2/blob/master/HomeSalesModel.ipynb).
 
