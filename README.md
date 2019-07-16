@@ -10,7 +10,7 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 2. [Create an IBM Cloud Account](#2-create-an-ibm-cloud-account)
 3. [Load Data into IBM Db2 on Cloud](#3-load-data-into-ibm-db2-on-cloud) 
 4. [Setup Watson Studio Project](#4-setup-watson-studio)
-5. Make Machine Learning Model  
+5. [Make Machine Learning Model](#5-make-machine-learning-model)  
 
 
 ### 1. Clone The Repo
@@ -127,7 +127,17 @@ Now that we have our database connected to our project, we need to also connect 
 
 We have finally creat our Watson Studio service. Within that, created a project where our database and data are connected. We can now finally start coding and building our model!
 
+### 5. Make Machine Learning Model
 
+It's time to finally create our machine leanring model! 
+
+* On the top of the project homepage, select `Add to project` and then click `Notebook`.
+* You can name the notebook whatever you want :) 
+* You can either create a new notebook and copy and paste the code from the notebook that is in github repo. Or you can import the notebook in this github repo into your project by using the `From File` option and follow along. 
+
+If you are not able to view the python notebook through github, please use this [link](https://nbviewer.jupyter.org/github/rohithravin/MachineLearningWithWatsonAndDB2/blob/master/HomeSalesModel.ipynb).
+
+**IMPORTANT NOTE**: In the second code snippet of the notebook, make sure you change the configuration string to import your data into your python notebook.
 
 
 
