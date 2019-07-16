@@ -62,9 +62,71 @@ Head to the dashboard of your IBM Cloud account and the follow the steps to load
 * Now we need to finailze the table, and make sure the column names are correct. Everything should we correct, so let's go ahead and click `Next`. 
 * Finally, we need to set the number of errors the load function should handle before the operation fails. For now the default number is 1000, so let's go head and click `Begin Load`.
 
-Once the job has been completed, our data has finally been loaded into our database. 
+Once the job has been completed, our data has finally been loaded into our database.
 
 ### 4. Setup Watson Studio
+Setting up our project enivorment can be broken down in the follow steps.
+
+1. [Acquiring Db2 on Cloud Credentials](#4a-acquiring-db2-on-cloud-credentials)
+2. [Creating Watson Studio Service](#4b-creating-watson-studio-service)
+3. [Creating a Project](#4c-creating-a-project)
+4. [Connect Db2 on Cloud with Watson Studio](#4d-connect-db2-on-cloud-with-watson-studio)
+
+#### 4a. Acquiring Db2 on Cloud Credentials
+
+Before we create a Watson Studio service, we need to first create credentials for our database so that Watson Studio can connect to it. 
+
+* In the search bar, search `Data-Science-Track` and click on your Db2 on Cloud service
+* Click on `Service Credentials` on the left hand side.
+* Click on `New Credentials` and then `Add`. This will create new credentials for us. 
+
+The key information that is important for us is: 
+
+1. `HOSTNAME`
+2. `UI`
+3. `PWD`
+4. `DATABASE `
+
+#### 4b. Creating Watson Studio Service
+
+* Now that we have this information, we can go ahead and create our Watson service. In the search bar, search `Watson Studio` and click on that option. 
+* Make sure all the information is correct that you have selected the `Lite` plan. 
+* Then click `Create` and then `Get Started`. 
+
+This will redict you to the Watson Studio homepage. 
+
+#### 4c. Creating a Project
+
+Lets now create and setup our project.
+
+* Select `Create a Project` and then select `Standard`.
+* Before we can create this project, we will need to create a storage service. Scroll down and click `Add` under the `Define Storage` section. Follow the instructions and create the service. Make sure your choose the `Lite` plane. Then come back to projct creation page and refresh it. You should see your storage service now. 
+* Let's name the project `Data Science Track`.
+* Then click `Create`.
+
+This will take you to your project dashboard/homepage.
+
+#### 4d. Connect Db2 on Cloud with Watson Studio
+
+Now that we have created out project, it's time to connect our project with our database we can use the data stored there for our machine learning project.
+
+* On the top of the project homepage, select `Add to project` and then click `Connection`.
+* This will then show us all the connections that we can have when using Watson Studio. For this project we want to use the `Db2` connection opton. So lets go and click that. 
+* This will take you to a connection configuration page. Here we will enter in our Db2 credentials that we arquire from Step 4a. Make sure for the `Port` option, you use `50000`. 
+* Click `Create` once you have entered all the required information.
+
+This will redirect you to the asset page for this project, and you should see your new Db2 connection as one of the assets. 
+
+Now that we have our database connected to our project, we need to also connect our data that is stored in the database to the project as well. 
+
+* On the top of the project homepage, select `Add to project` and then click `Connected data`.
+* Select `Select Source`. 
+* Select our database, scheme and finally our table `Home_Sales`. 
+* Click `Select`.
+* Let's name this connected data as `Home_Sales` and then click `Select`.
+
+We have finally creat our Watson Studio service. Within that, created a project where our database and data are connected. We can now finally start coding and building our model!
+
 
 
 
