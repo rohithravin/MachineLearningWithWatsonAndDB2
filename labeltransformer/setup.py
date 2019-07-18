@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='labeltransformer',
       version='0.1',
       description='Label Transformer For Home Sale Model',
-      url='http://github.com/storborg/funniest',
+      url='https://github.com/rohithravin/MachineLearningWithWatsonAndDB2/tree/master/labeltransformer',
       author='Rohith Ravindranath',
       author_email='rohithravin@example.com',
       license='MIT',
