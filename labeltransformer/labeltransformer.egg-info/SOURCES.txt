@@ -1,4 +1,5 @@
 setup.py
+labeltransformer/EncodeCategoricalLabels.py
 labeltransformer/__init__.py
 labeltransformer.egg-info/PKG-INFO
 labeltransformer.egg-info/SOURCES.txt
