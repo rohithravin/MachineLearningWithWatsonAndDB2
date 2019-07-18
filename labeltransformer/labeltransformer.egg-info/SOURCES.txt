@@ -3,6 +3,5 @@ labeltransformer/__init__.py
 labeltransformer.egg-info/PKG-INFO
 labeltransformer.egg-info/SOURCES.txt
 labeltransformer.egg-info/dependency_links.txt
-labeltransformer.egg-info/not-zip-safe
 labeltransformer.egg-info/requires.txt
 labeltransformer.egg-info/top_level.txt

@@ -1,10 +1,13 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: labeltransformer
 Version: 0.1
 Summary: Label Transformer For Home Sale Model
-Home-page: https://github.com/rohithravin/MachineLearningWithWatsonAndDB2/tree/master/labeltransformer
+Home-page: https://github.com/rohithravin/MachineLearningWithWatsonAndDB2/blob/master/
 Author: Rohith Ravindranath
 Author-email: rohithravin@example.com
 License: MIT
 Description: UNKNOWN
 Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
