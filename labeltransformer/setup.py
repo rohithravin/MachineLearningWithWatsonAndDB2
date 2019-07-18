@@ -8,4 +8,9 @@ setup(name='labeltransformer',
       author_email='rohithravin@example.com',
       license='MIT',
       packages=['labeltransformer'],
+      install_requires=[
+          'pandas',
+          'numpy',
+          'sklearn'
+      ],
       zip_safe=False)
